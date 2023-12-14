@@ -20,7 +20,7 @@ export default function Plane({ isRotating, ...props }) {
       actions["Take 001"].stop();
     }
   }, [actions, isRotating]);
-
+  // use the primitive element when you want to directly embed a complex 3D
   return (
     <mesh {...props} ref={ref}>
       <primitive object={scene} />
