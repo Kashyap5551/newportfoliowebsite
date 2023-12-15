@@ -11,6 +11,7 @@ const Navbar = () => {
       >
         <p className="blue-gradient_text">KP</p>
       </NavLink>
+
       <nav className="flex text-lg gap-7 font-medium">
         <NavLink
           to="/about"
@@ -36,6 +37,9 @@ const Navbar = () => {
         >
           Contact
         </NavLink>
+        <a href="resume.pdf" target="_blank">
+          Resume
+        </a>
       </nav>
     </header>
   );
