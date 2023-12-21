@@ -54,8 +54,9 @@ const About = () => {
         <h3 className="subhead-text">Work Experience.</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-            I've worked with all sorts of companies, leveling up my skills and
-            teaming up with smart people. Here's the rundown:
+            I've worked within all sorts of organizations, from start-ups to
+            enterprises. Leveling up my skills and teaming up with exceptional
+            people. Here's the rundown:
           </p>
         </div>
 
@@ -98,7 +99,7 @@ const About = () => {
                   {experience.points.map((point, index) => (
                     <li
                       key={`experience-point-${index}`}
-                      className="text-black-500/50 font-normal pl-1 text-sm"
+                      className="text-black-900 font-normal pl-1 text-sm"
                     >
                       {point}
                     </li>

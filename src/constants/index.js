@@ -1,4 +1,11 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import {
+  meta,
+  shopify,
+  starbucks,
+  tesla,
+  moodys,
+  allenfort,
+} from "../assets/images";
 import {
   postgressql,
   docker,
@@ -196,61 +203,60 @@ export const skills = [
   },
 ];
 
-export const experiences = [];
-// export const experiences = [
-//   {
-//     title: "React.js Developer",
-//     company_name: "Starbucks",
-//     icon: starbucks,
-//     iconBg: "#accbe1",
-//     date: "March 2020 - April 2021",
-//     points: [
-//       "Developing and maintaining web applications using React.js and other related technologies.",
-//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-//       "Implementing responsive design and ensuring cross-browser compatibility.",
-//       "Participating in code reviews and providing constructive feedback to other developers.",
-//     ],
-//   },
-//   {
-//     title: "React Native Developer",
-//     company_name: "Tesla",
-//     icon: tesla,
-//     iconBg: "#fbc3bc",
-//     date: "Jan 2021 - Feb 2022",
-//     points: [
-//       "Developing and maintaining web applications using React.js and other related technologies.",
-//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-//       "Implementing responsive design and ensuring cross-browser compatibility.",
-//       "Participating in code reviews and providing constructive feedback to other developers.",
-//     ],
-//   },
-//   {
-//     title: "Web Developer",
-//     company_name: "Shopify",
-//     icon: shopify,
-//     iconBg: "#b7e4c7",
-//     date: "Jan 2022 - Jan 2023",
-//     points: [
-//       "Developing and maintaining web applications using React.js and other related technologies.",
-//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-//       "Implementing responsive design and ensuring cross-browser compatibility.",
-//       "Participating in code reviews and providing constructive feedback to other developers.",
-//     ],
-//   },
-//   {
-//     title: "Full stack Developer",
-//     company_name: "Meta",
-//     icon: meta,
-//     iconBg: "#a2d2ff",
-//     date: "Jan 2023 - Present",
-//     points: [
-//       "Developing and maintaining web applications using React.js and other related technologies.",
-//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-//       "Implementing responsive design and ensuring cross-browser compatibility.",
-//       "Participating in code reviews and providing constructive feedback to other developers.",
-//     ],
-//   },
-// ];
+export const experiences = [
+  {
+    title: "Software Engineering Intern",
+    company_name: "Moody's Analytics",
+    icon: moodys,
+    iconBg: "#1B95E1",
+    date: "May 2022 - August 2022",
+    points: [
+      "Developing and maintaining web applications using Java Spring and other related technologies.",
+      "Collaborating with cross-functional teams including designers, Business Analysts, and other developers to create high-quality products.",
+      "Implementing scalable REST APIs using Spring framework ensuring robust architechture.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Software Developer",
+    company_name: "Allenfort Inc",
+    icon: allenfort,
+    iconBg: "#C7E1F1",
+    date: "August 2021 - April 2022",
+    points: [
+      "Engineered property management SAAS app for 100+ B2B clients, prioritizing reliability and scalability.",
+      "Implemented Redis for x6 faster data retrieval.",
+      "Collaborated on React front-end, reducing bounce rate by 25% and boosting user engagement by 15%.",
+      "Designed app for seamless operation with diverse workloads.",
+    ],
+  },
+  //   {
+  //     title: "Web Developer",
+  //     company_name: "Shopify",
+  //     icon: shopify,
+  //     iconBg: "#b7e4c7",
+  //     date: "Jan 2022 - Jan 2023",
+  //     points: [
+  //       "Developing and maintaining web applications using React.js and other related technologies.",
+  //       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //       "Implementing responsive design and ensuring cross-browser compatibility.",
+  //       "Participating in code reviews and providing constructive feedback to other developers.",
+  //     ],
+  //   },
+  //   {
+  //     title: "Full stack Developer",
+  //     company_name: "Meta",
+  //     icon: meta,
+  //     iconBg: "#a2d2ff",
+  //     date: "Jan 2023 - Present",
+  //     points: [
+  //       "Developing and maintaining web applications using React.js and other related technologies.",
+  //       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //       "Implementing responsive design and ensuring cross-browser compatibility.",
+  //       "Participating in code reviews and providing constructive feedback to other developers.",
+  //     ],
+  //  },
+];
 
 export const socialLinks = [
   {
@@ -265,17 +271,16 @@ export const socialLinks = [
   },
 ];
 
-export const projects = [];
-
-// export const projects = [
-//   {
-//     iconUrl: pricewise,
-//     theme: "btn-back-red",
-//     name: "Amazon Price Tracker",
-//     description:
-//       "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-//     link: "https://github.com/adrianhajdin/pricewise",
-//   },
+export const projects = [
+  {
+    iconUrl: pricewise,
+    theme: "btn-back-red",
+    name: "Work in Progress",
+    description:
+      "I have multiple projects in the works. I'll update this page once I have deployed them to production. For now check out my GitHub!",
+    link: "https://github.com/kashyap5551",
+  },
+];
 //   {
 //     iconUrl: threads,
 //     theme: "btn-back-green",
